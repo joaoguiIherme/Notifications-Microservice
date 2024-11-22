@@ -34,9 +34,9 @@ Before setting up the Notifications Microservice, ensure you have:
 - [Docker Compose](https://docs.docker.com/compose/) installed (Version 2.x or higher).
 - PostgreSQL (via Docker).
 - Access to other repositories in the ecosystem:
-  - [Main App](https://github.com/joaoguiIherme/Main-Tasks-App)
-  - [Auth Service](https://github.com/joaoguiIherme/Auth-Microservice)
-  - [Scraping Service](https://github.com/joaoguiIherme/Scraping-Microservice)
+  - [Main App](https://github.com/joaoguiIherme/main_app)
+  - [Auth Service](https://github.com/joaoguiIherme/auth_service)
+  - [Scraping Service](https://github.com/joaoguiIherme/scraping_service)
 
 ---
 
@@ -46,8 +46,7 @@ Before setting up the Notifications Microservice, ensure you have:
 
 Clone this repository into your workspace:
 ```bash
-git clone https://github.com/joaoguiIherme/Notifications-Microservice.git
-cd Notifications-Microservice
+git clone https://github.com/joaoguiIherme/notifications_service.git
 ```
 
 ### 2. File Structure Adjustment
